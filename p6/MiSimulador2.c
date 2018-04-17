@@ -122,6 +122,8 @@ void reference (unsigned int address, unsigned int LE)
 	    }
 	    else{
 	        miss = 1;
+	       	v[linea_mc].tag = tag;
+	        v[linea_mc].validesa = 1;
 	        replacement = 0;
 	        tag_out = 0;
 	        lec_mp = 1;
