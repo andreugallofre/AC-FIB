@@ -53,7 +53,7 @@ void reference (unsigned int address, unsigned int LE)
     linea_mc = bloque_m & 0b0000000000000000000001111111;
     tag = bloque_m/0b10000000;
     
-    if(!LE)
+    if(!LE){
 	    if (v[linea_mc].validesa){
 	        if (v[linea_mc].tag == tag){
 	            miss = 0;
@@ -120,6 +120,7 @@ void reference (unsigned int address, unsigned int LE)
 	        mida_esc_mp = 1;
 	    }
 	}
+}
 
 	/* La funcio test_and_print escriu el resultat de la teva simulacio
 	 * per pantalla (si s'escau) i comproba si hi ha algun error
