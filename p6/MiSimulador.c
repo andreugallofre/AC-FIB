@@ -95,7 +95,7 @@ void reference (unsigned int address, unsigned int LE)
 	            lec_mp = 0;
 	            mida_lec_mp = 0;
 	            esc_mp = 1;
-	            mida_esc_mp = 4;
+	            mida_lec_mp = 1;
 	        }
 	        else{
 	            miss = 1;
@@ -105,7 +105,7 @@ void reference (unsigned int address, unsigned int LE)
 	            lec_mp = 1;
 	            mida_lec_mp = 32;
 	            esc_mp = 1;
-	            mida_esc_mp = 4;
+	            mida_lec_mp = 1;
 	        }
 	    }
 	    else{
@@ -117,7 +117,7 @@ void reference (unsigned int address, unsigned int LE)
 	        lec_mp = 0;
 	        mida_lec_mp =4;
 	        esc_mp = 1;
-	        mida_esc_mp = 4;
+	        mida_lec_mp = 1;
 	    }
 	}
 
