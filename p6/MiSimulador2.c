@@ -123,6 +123,7 @@ void reference (unsigned int address, unsigned int LE)
 	        	else{
 	            	esc_mp = 0;
 	            	mida_esc_mp = 0;
+	            	v[linea_mc].sucio = 1;
 	        	}
 	        }
 	    }
