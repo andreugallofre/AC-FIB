@@ -101,9 +101,8 @@ void reference (unsigned int address, unsigned int LE)
 	        }
 	        else{
 	            miss = 1;
-	            tag_out = v[linea_mc].tag;
-	            replacement = 1;
-	            v[linea_mc].tag = tag;
+	            replacement = 0;
+	            tag_out = 0;
 	            lec_mp = 0;
 	            mida_lec_mp = 0;
 	            esc_mp = 1;
@@ -114,8 +113,6 @@ void reference (unsigned int address, unsigned int LE)
 	        miss = 1;
 	        replacement = 0;
 	        tag_out = 0;
-	        v[linea_mc].tag = tag;
-	        v[linea_mc].validesa = 1;
 	        lec_mp = 0;
 	        mida_lec_mp = 0;
 	        esc_mp = 1;
