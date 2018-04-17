@@ -94,6 +94,7 @@ void reference (unsigned int address, unsigned int LE)
 	        esc_mp = 0;
 	        mida_esc_mp = 0;
 	    }
+	}
 	else{
 		if (v[linea_mc].validesa){
 	        if (v[linea_mc].tag == tag){
