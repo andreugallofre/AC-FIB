@@ -35,10 +35,14 @@ void reference (unsigned int address, unsigned int LE)
 	unsigned int linea_mc;
 	unsigned int tag;
 	unsigned int miss;
+	
+
 	unsigned int lec_mp;
 	unsigned int mida_lec_mp;
 	unsigned int esc_mp;
 	unsigned int mida_esc_mp;
+	
+
 	unsigned int replacement;
 	unsigned int tag_out;
 
@@ -79,6 +83,7 @@ void reference (unsigned int address, unsigned int LE)
 	        v[linea_mc].validesa = 1;
 	        lec_mp = 1;
 	        mida_lec_mp = 4;
+	        esc_mp = 0;
 	        mida_esc_mp = 0;
 	    }
 	else{
