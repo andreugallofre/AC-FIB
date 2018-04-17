@@ -86,6 +86,7 @@ void reference (unsigned int address, unsigned int LE)
 	        esc_mp = 0;
 	        mida_esc_mp = 0;
 	    }
+	}
 	else{
 		if (v[linea_mc].validesa){
 	        if (v[linea_mc].tag == tag){
@@ -120,7 +121,7 @@ void reference (unsigned int address, unsigned int LE)
 	        mida_esc_mp = 1;
 	    }
 	}
-}
+
 
 	/* La funcio test_and_print escriu el resultat de la teva simulacio
 	 * per pantalla (si s'escau) i comproba si hi ha algun error
