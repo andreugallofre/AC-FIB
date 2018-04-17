@@ -35,17 +35,14 @@ void reference (unsigned int address, unsigned int LE)
 	unsigned int linea_mc;
 	unsigned int tag;
 	unsigned int miss;
+	unsigned int replacement;
+	unsigned int tag_out;
 	
-
 	unsigned int lec_mp;
 	unsigned int mida_lec_mp;
 	unsigned int esc_mp;
 	unsigned int mida_esc_mp;
 	
-
-	unsigned int replacement;
-	unsigned int tag_out;
-
 	/* Escriu aqui el teu codi */
 
 	byte = 0b000000000000000000000000000011111 & address;
