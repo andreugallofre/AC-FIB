@@ -114,9 +114,9 @@ void reference (unsigned int address, unsigned int LE)
 	            v[linea_mc].tag = tag;
 	            lec_mp = 1;
 	            mida_lec_mp = 32;
-	            esc_mp = 1;
-	            mida_esc_mp = 32;
-	            v[linea_mc].sucio = 0;
+	            esc_mp = 0;
+	            mida_esc_mp = 0;
+	            v[linea_mc].sucio = 1;
 	        }
 	    }
 	    else{
